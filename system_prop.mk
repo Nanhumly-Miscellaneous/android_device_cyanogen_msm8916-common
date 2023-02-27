@@ -16,12 +16,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.bluetooth.soc=pronto \
-    vendor.qcom.bluetooth.soc=pronto \
-    ro.bluetooth.dun=true \
-    ro.bluetooth.hfp.ver=1.7 \
-    ro.bluetooth.sap=true \
-    ro.qualcomm.bt.hci_transport=smd
+    vendor.qcom.bluetooth.soc=pronto
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
